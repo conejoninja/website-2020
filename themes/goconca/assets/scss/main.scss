@@ -36,20 +36,40 @@ body {
   }
 
   .hero.is-primary.is-gocon {
-    background-image: url('/img/cover.png');
-    background-image: url('/img/cover.png'), linear-gradient(to bottom, $cyan, $turquoise);
+    background-image: url('/img/cover-2020.jpg');
+    background-image: url('/img/cover-2020.jpg'), linear-gradient(to bottom, $cyan, $turquoise);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center bottom;
 
+    .hero-body {
+      padding: 0;
+
+      .container {
+        @media (min-width:1024px)  {
+          min-height: 600px;
+        }
+
+        @media (max-width:1024px)  {
+          min-height: 500px;
+        }
+
+        position: relative;
+
+        .mascot {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%)
+        }
+      }
+    }
+
     @media (min-width:641px)  {
-      background-size: 100% auto;
-      background-position: center bottom;
     }
 
     @media (max-width:641px)  {
-      background-size: 250% auto !important;
-      background-position: center 65%;
     }
 
     .title, .subtitle {
