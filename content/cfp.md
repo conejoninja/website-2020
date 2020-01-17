@@ -5,4 +5,4 @@ order: 2
 draft: false
 ---
 
-Interested in speaking at GoCon Canada? Check out our [CFP page](https://www.papercall.io/gocon-2020)!
+Interested in speaking at GoCon Canada? [Send us your Go talks!](https://www.papercall.io/gocon-2020) CFP closes February 14.

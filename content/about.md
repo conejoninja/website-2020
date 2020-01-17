@@ -4,7 +4,7 @@ ID: about
 order: 1
 ---
 
-The second installment of GoCon Canada will be coming to downtown Toronto in May of 2020.
+The second installment of GoCon Canada will be coming to downtown Toronto on May 25-26, 2020.
 GoCon is committed to building an accessible and inclusive conference with high-quality
 conversations that will grow the Go community in the Greater Toronto Area. We're scaling up to two days
 this year, which means more slots for awesome Go talks!
