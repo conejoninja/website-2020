@@ -58,7 +58,9 @@ body {
 
         position: relative;
 
-        .mascot {
+        .mascot::after {
+          display: inline-block;
+
           @media (min-width:1024px)  {
             content:url("/img/mascot-2020.png");
           }
@@ -67,8 +69,9 @@ body {
             content:url("/img/mascot-2020-small.png");
           }
 
+          background-position: center bottom;
           position: absolute;
-          bottom: 0;
+          bottom: -5px;
           left: 50%;
           -webkit-transform: translateX(-50%);
           transform: translateX(-50%)
