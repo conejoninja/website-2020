@@ -58,20 +58,29 @@ body {
 
         position: relative;
 
-        .mascot::after {
-          display: inline-block;
-
+        .mascot {
           @media (min-width:1024px)  {
-            content:url("/img/mascot-2020.svg");
+            &.large {
+              display: inline;
+            }
+            &.small {
+              display: none;
+            }
           }
 
           @media (max-width:1024px)  {
-            content:url("/img/mascot-2020-small.svg");
+            &.large {
+              display: none;
+            }
+            &.small {
+              display: inline;
+            }
           }
 
+          max-with: 100%;
           background-position: center bottom;
           position: absolute;
-          bottom: -5px;
+          bottom: 0px;
           left: 50%;
           -webkit-transform: translateX(-50%);
           transform: translateX(-50%)
