@@ -62,11 +62,11 @@ body {
           display: inline-block;
 
           @media (min-width:1024px)  {
-            content:url("/img/mascot-2020.png");
+            content:url("/img/mascot-2020.svg");
           }
 
           @media (max-width:1024px)  {
-            content:url("/img/mascot-2020-small.png");
+            content:url("/img/mascot-2020-small.svg");
           }
 
           background-position: center bottom;
