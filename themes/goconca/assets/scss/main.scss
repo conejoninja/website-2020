@@ -35,6 +35,20 @@ body {
     }
   }
 
+  #eventbrite-iframe {
+        @media (max-width:370px)  {
+          min-height: 600px;
+        }
+        @media (min-width:370px)  {
+          min-height: 500px;
+        }
+        @media (min-width:760px) and (max-width:1024px)  {
+          min-height: 330px;
+        }
+
+
+  }
+
   .hero.is-primary.is-gocon {
     background-image: url('/img/cover-2020.jpg');
     background-image: url('/img/cover-2020.jpg'), linear-gradient(to bottom, $cyan, $turquoise);
