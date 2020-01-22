@@ -38,7 +38,11 @@ docker-rm:
 generate-using-docker: docker-image docker-rm public submodules
 	docker run --rm -t -v $(shell pwd):/var/website --name website-builder website-builder make generate
 
+cleanup-public:
+	rm -f public/style.*.css
+
 deploy-using-docker: public
+	make cleanup-public
 	make generate-using-docker
 	make deploy
 	make push
