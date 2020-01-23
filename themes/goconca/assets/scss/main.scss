@@ -29,6 +29,11 @@ body {
           display: none;
         }
       }
+      @media (max-width:1024px)  {
+        &.large-button {
+          display: none;
+        }
+      }
     }
 
     .gocon-nav, .navbar-brand, .navbar-menu {
