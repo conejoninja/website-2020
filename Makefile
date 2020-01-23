@@ -29,7 +29,7 @@ deploy: public
 USER=$(shell whoami)
 UID=$(shell id -u $(USER))
 docker-image:
-	docker build --build-arg GNZHUID=$(UID) -t website-builder .
+	docker build -t website-builder .
 
 docker-rm:
 	docker kill website-builder || echo "Not found"
