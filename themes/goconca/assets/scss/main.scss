@@ -22,6 +22,15 @@ $family-sans-serif: 'Roboto', sans-serif;
 
 body {
   nav.navbar {
+    .buy-now-button {
+      margin: 5px;
+      @media (min-width:1024px)  {
+        &.small-button {
+          display: none;
+        }
+      }
+    }
+
     .gocon-nav, .navbar-brand, .navbar-menu {
       background-color: $yellow;
       color: $dark;
