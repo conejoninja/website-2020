@@ -72,8 +72,11 @@ body {
         @media (max-width:370px)  {
           min-height: 450px;
         }
-        @media (min-width:370px)  {
+        @media (min-width:370px) and (max-width:435px) {
           min-height: 500px;
+        }
+        @media (min-width:435px) {
+          min-height: 600px;
         }
         @media (min-width:760px) and (max-width:1024px)  {
           margin-top: 30px;
