@@ -38,8 +38,8 @@ params:
       homepage: https://spike01.com/
     # - name: Johannes van der Horst
     #   homepage: https://example.com/
-    # - name: Daniel Esteban
-    #   homepage: https://example.com/
+    - name: Daniel Esteban
+      homepage: https://conejo.me/
 
   Nav:
     - Url: "/#about"
