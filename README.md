@@ -1,6 +1,10 @@
 # Website Thingi
 
 
+## Contributing
+
+Website is built using gohugo.io, deployment is done automatically from master branch, no need to run anything manually.
+
 ## Development process
 
 Run preview in docker using `make preview-using-docker` command, to deploy manually (should not be necessary) run `make deploy-using-docker`.
