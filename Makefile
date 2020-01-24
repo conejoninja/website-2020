@@ -17,7 +17,7 @@ else
 PUBLIC_URL = git@github.com:goconca/website-2020.git
 endif
 public:
-	git clone -b master $(PUBLIC_URL) public
+	git clone -b gh-pages $(PUBLIC_URL) public
 
 deploy: public
 	cd public \
